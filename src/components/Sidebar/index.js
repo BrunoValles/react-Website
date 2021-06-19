@@ -18,20 +18,17 @@ const Sidebar = ({ isOpen, toggle }) => {
 	</Icon>
 	<SidebarWrapper>
 	  <SidebarLink to="aboutMe" onClick={toggle}>
-	    About Me
+	   .aboutMe() 
 	  </SidebarLink>
       	  <SidebarLink to="skills" onClick={toggle}>
-	   Skills 
+	   .skills()
 	  </SidebarLink>
 	  <SidebarLink to="experience" onClick={toggle}>
-	    Experience
+	    .experience()
 	  </SidebarLink>
 	  <SidebarLink to="somethingGoesHere">
-	    Something 
+	    .contact()
 	  </SidebarLink>
-	  <SideBtnWrap>
-	    <SidebarRoute>Contact me!</SidebarRoute>
-	  </SideBtnWrap>
 	</SidebarWrapper>
       </SidebarContainer>
     );
