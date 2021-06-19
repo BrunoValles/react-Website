@@ -36,7 +36,7 @@ const index = () =>{
 		</NavItem>
 	      </NavMenu>
 	      <NavBtn>
-	        <NavBtnLink to='/Contact'>Contact</NavBtnLink>
+	        <NavBtnLink to='/Contact'>Contact me!</NavBtnLink>
 	      </NavBtn>
 	  </NavbarContainer>
 	</Nav>
