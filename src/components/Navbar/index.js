@@ -9,7 +9,7 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
   } from './NavbarElements'
 
 const index = ({ toggle }) =>{
@@ -17,7 +17,7 @@ const index = ({ toggle }) =>{
       <>
 	<Nav>
 	  <NavbarContainer>
-	    <NavLogo to='/'>Bruno<span>_</span></NavLogo>
+	    <NavLogo to='/'>Bruno_</NavLogo>
 	      <MobileIcon onClick={toggle}>
 		<FaBars />
 	      </MobileIcon>

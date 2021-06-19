@@ -17,13 +17,13 @@ const Sidebar = ({ isOpen, toggle }) => {
 	  <CloseIcon />
 	</Icon>
 	<SidebarWrapper>
-	  <SidebarLink to="aboutMe">
+	  <SidebarLink to="aboutMe" onClick={toggle}>
 	    About Me
 	  </SidebarLink>
-      	  <SidebarLink to="skills">
+      	  <SidebarLink to="skills" onClick={toggle}>
 	   Skills 
 	  </SidebarLink>
-	  <SidebarLink to="experience">
+	  <SidebarLink to="experience" onClick={toggle}>
 	    Experience
 	  </SidebarLink>
 	  <SidebarLink to="somethingGoesHere">
