@@ -1,7 +1,59 @@
 import styled from 'styled-components'
+import { keyframes } from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
+export const GlitchAnimation = keyframes`
+  0%{
+    text-shadow:
+    0.05em 0 0 rgba(217, 41, 56, .75),
+    -0.025em -0.05em 0 rgba(98, 195, 217, .75),
+    0.025em 0.05em 0 rgba(50, 140, 62, .75);
+  }
+
+  14%{
+    text-shadow:
+    0.05em 0 0 rgba(217, 41, 56, .75),
+    -0.025em -0.05em 0 rgba(98, 195, 217, .75),
+    0.025em 0.05em 0 rgba(50, 140, 62, .75);
+  }
+  15%{
+    text-shadow:
+    -0.05em -0.25em 0 rgba(217, 41, 56, .75),
+    0.025em 0.25em 0 rgba(98, 195, 217, .75),
+    -0.05em -0.05em 0 rgba(50, 140, 62, .75);
+  }
+  49%{
+    text-shadow:
+    -0.05em -0.25em 0 rgba(217, 41, 56, .75),
+    0.025em 0.25em 0 rgba(98, 195, 217, .75),
+    -0.05em -0.05em 0 rgba(50, 140, 62, .75);
+  }
+  50%{
+    text-shadow:
+    0.025em 0.05em 0 rgba(217, 41, 56, .75),
+    0.05em 0 0 rgba(98, 195, 217, .75),
+    0 -0.05em 0 rgba(50, 140, 62, .75);
+  }
+  98%{
+    text-shadow:
+    0.025em 0.05em 0 rgba(217, 41, 56, .75),
+    0.05em 0 0 rgba(98, 195, 217, .75),
+    0 -0.05em 0 rgba(50, 140, 62, .75);
+  }
+  99%{
+    text-shadow:
+    -0.05em -0.25em 0 rgba(217, 41, 56, .75),
+    0.025em 0.25em 0 rgba(98, 195, 217, .75),
+    -0.05em -0.05em 0 rgba(50, 140, 62, .75);
+  }
+  100%{
+    text-shadow:
+    -0.05em -0.25em 0 rgba(217, 41, 56, .75),
+    0.025em 0.25em 0 rgba(98, 195, 217, .75),
+    -0.05em -0.05em 0 rgba(50, 140, 62, .75);
+  }
+`;
 export const Nav = styled.nav`
   background: #000;
   transparency: 90%;
@@ -34,13 +86,24 @@ export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  text-shadow:
+    0 0 0 rgba(217, 41, 56, .75),
+    0 0 0 rgba(98, 195, 217, .75),
+    0 0 0 rgba(50, 140, 62, .75);
+
+  &:hover{
+    animation: ${GlitchAnimation}; 
+    animation-duration: 750ms;
+    animation-fill-mode: forwards;
+  }
 `;
+
 
 export const MobileIcon = styled.div`
   display: none;
@@ -64,7 +127,7 @@ export const NavMenu = styled.ul`
   text-align: center;
   margin-right: -22px;
   font-size: .8rem;
-
+  
   @media screen and (max-width: 768px){
     display: none;
 
@@ -91,6 +154,7 @@ export const NavLinks = styled(LinkS)`
   color: #1bf71;
   transition:  0. ease-in-out;
  }
+
 `;
 
 //export const NavBtn = styled.nav`
