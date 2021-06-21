@@ -1,9 +1,12 @@
 import React from 'react'
-import Video from '../../videos/videos.mp4'
+import Video from '../../videos/video.mp4'
 import {
   HeroContainer,
   HeroBg,
-  VideoBg
+  VideoBg,
+  HeroContent,
+  HeroH1,
+  HeroP
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -12,6 +15,10 @@ const HeroSection = () => {
 	  <HeroBg>
 	    <VideoBg autoPlay loop muted src = {Video} type='video/mp4' />
 	  </HeroBg>
+	  <HeroContent>
+	    <HeroH1>Bruno_Valles</HeroH1>
+	    <HeroP>Software engineer</HeroP>
+	  </HeroContent>
 	</HeroContainer> 
     )
 }

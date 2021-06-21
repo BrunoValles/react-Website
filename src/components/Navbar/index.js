@@ -17,7 +17,7 @@ const index = ({ toggle }) =>{
       <>
 	<Nav>
 	  <NavbarContainer>
-	    <NavLogo to='/'>Bruno_</NavLogo>
+	    <NavLogo to='/'>Bruno_Valles</NavLogo>
 	      <MobileIcon onClick={toggle}>
 		<FaBars />
 	      </MobileIcon>
