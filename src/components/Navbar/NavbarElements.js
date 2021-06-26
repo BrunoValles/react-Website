@@ -11,25 +11,7 @@ export const GlitchAnimation = keyframes`
     0.025em 0.05em 0 rgba(50, 140, 62, .75);
   }
 
-  14%{
-    text-shadow:
-    0.05em 0 0 rgba(217, 41, 56, .75),
-    -0.025em -0.05em 0 rgba(98, 195, 217, .75),
-    0.025em 0.05em 0 rgba(50, 140, 62, .75);
-  }
-  15%{
-    text-shadow:
-    -0.05em -0.25em 0 rgba(217, 41, 56, .75),
-    0.025em 0.25em 0 rgba(98, 195, 217, .75),
-    -0.05em -0.05em 0 rgba(50, 140, 62, .75);
-  }
-  49%{
-    text-shadow:
-    -0.05em -0.25em 0 rgba(217, 41, 56, .75),
-    0.025em 0.25em 0 rgba(98, 195, 217, .75),
-    -0.05em -0.05em 0 rgba(50, 140, 62, .75);
-  }
-  50%{
+  30%{
     text-shadow:
     0.025em 0.05em 0 rgba(217, 41, 56, .75),
     0.05em 0 0 rgba(98, 195, 217, .75),
@@ -55,7 +37,7 @@ export const GlitchAnimation = keyframes`
   }
 `;
 export const Nav = styled.nav`
-  background: #000;
+  background-color: #000;
   transparency: 90%;
   height: 50px;
   margin-top: -80;
@@ -99,7 +81,7 @@ export const NavLogo = styled(LinkR)`
 
   &:hover{
     animation: ${GlitchAnimation}; 
-    animation-duration: 750ms;
+    animation-duration: 250ms;
     animation-fill-mode: forwards;
   }
 `;
