@@ -60,18 +60,18 @@ export const NavbarContainer =styled.div`
   height: 50px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 24;
   max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: flex-start;
+  float: left;
   cursor: pointer;
   font-size: 1.6rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
   text-shadow:
