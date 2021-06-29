@@ -17,7 +17,7 @@ const HeroSection = () => {
 	  </HeroBg>
 	  <HeroContent>
 	    <HeroH1>Bruno_Valles</HeroH1>
-	    <HeroP>Software engineer</HeroP>
+	    <HeroP>I Code Stuff</HeroP>
 	  </HeroContent>
 	</HeroContainer> 
     )
