@@ -106,6 +106,7 @@ export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
   list-style: none;
+  color: #fff;
   text-align: center;
   margin-right: -22px;
   font-size: .8rem;
@@ -139,6 +140,24 @@ export const NavLinks = styled(LinkS)`
 
 `;
 
+export const NavSocLinks = styled.a`
+ color: #fff;
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ padding: 0 1rem;
+ height: 100%;
+ cursor: pointer;
+
+ &.active{
+  border-bottom: 3px solid #01bf71;
+ }
+ &.hover{
+  color: #1bf71;
+  transition:  0. ease-in-out;
+ }
+
+`;
 //export const NavBtn = styled.nav`
   //display: flex;
   //align-items: center;

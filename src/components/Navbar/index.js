@@ -1,5 +1,10 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa'
+import {
+  FaBars, 
+  FaGithub,
+  FaLinkedinIn,
+ FaTwitter 
+} from 'react-icons/fa';
 import {
   Nav,
   NavbarContainer,
@@ -8,7 +13,8 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  } from './NavbarElements'
+  NavSocLinks
+  } from './NavbarElements';
 
 const index = ({ toggle }) =>{
     return(
@@ -31,6 +37,15 @@ const index = ({ toggle }) =>{
 		</NavItem>
 		<NavItem>
 		  <NavLinks to="contact">.contact()</NavLinks>
+		</NavItem>
+		<NavItem>
+		  <NavSocLinks href="https://github.com/BrunoValles"><FaGithub/></NavSocLinks>
+		</NavItem>
+		<NavItem>
+		  <NavSocLinks href="https://www.linkedin.com/in/bruno-valles-702b33182/?locale=en_US"><FaLinkedinIn/></NavSocLinks>
+		</NavItem>
+		<NavItem>
+		  <NavSocLinks href= "https://twitter.com/Bruno_Valles242"><FaTwitter/></NavSocLinks>
 		</NavItem>
 	      </NavMenu>
 	  </NavbarContainer>
