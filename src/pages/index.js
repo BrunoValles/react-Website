@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar'
 import Navbar from  '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
+import ExpSection from  '../components/Experience/index.js'
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from '../components/InfoSection/Data'
 
 const Home = () => {
@@ -18,7 +19,8 @@ const Home = () => {
 	<HeroSection />
 	<InfoSection {...homeObjOne}/>
 	<InfoSection {...homeObjTwo}/>
-	<InfoSection {...homeObjThree}/>
+      {/*<InfoSection {...homeObjThree}/>*/}
+	<ExpSection />
 	<InfoSection {...homeObjFour}/>
       </>
     );

@@ -104,6 +104,7 @@ export const MobileIcon = styled.div`
 
 export const NavMenu = styled.ul`
   display: flex;
+  z-index: 2;
   align-items: center;
   list-style: none;
   color: #fff;
@@ -148,6 +149,7 @@ export const NavSocLinks = styled.a`
  padding: 0 1rem;
  height: 100%;
  cursor: pointer;
+ font-size: 1rem;
 
  &.active{
   border-bottom: 3px solid #01bf71;

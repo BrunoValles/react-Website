@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 	  <SidebarLink to="experience" onClick={toggle}>
 	    .experience()
 	  </SidebarLink>
-	  <SidebarLink to="somethingGoesHere">
+	  <SidebarLink to="contact" onClick={toggle}>
 	    .contact()
 	  </SidebarLink>
 	</SidebarWrapper>
