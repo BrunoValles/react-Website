@@ -27,15 +27,15 @@ const ExpSection = () =>{
 	      <TextWrapper>
 		<TopLine>.experience()</TopLine>
 		<Heading >Take a look at my work!</Heading>
- 		<Subtitle >
+	    {/*<Subtitle >
 		  You can Download my CV Here!
 		</Subtitle>
-		<CvButton>Download</CvButton>
+		<CvButton>Download</CvButton>*/}
 		<Subtitle>
-		You can also see what I'm currently working on in my github!  
+		You can see what I'm currently working on in my github!  
 		</Subtitle>
-		<CvButton href="https://github.com/BrunoValles">
-		  <GitLink ><FaGithub/></GitLink> My Github
+		<CvButton to={{ pathname:'https://github.com/brunovalles'}} target="_blank">
+		  <GitLink><FaGithub/></GitLink> My Github
 		</CvButton>
 	      </TextWrapper>
 	    </ExpCol1>

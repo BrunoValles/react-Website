@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import {animateScroll as scroll} from 'react-scroll'
 import {
   FaBars, 
   FaGithub,
   FaLinkedinIn,
- FaTwitter 
+  FaTwitter 
 } from 'react-icons/fa';
 import {
   Nav,
@@ -16,27 +17,45 @@ import {
   NavSocLinks
   } from './NavbarElements';
 
-const index = ({ toggle }) =>{
+const Index = ({ toggle }) =>{
+  const[scrollNav, setScrollNav] = useState(false)
+
+  const changeNav = ()=>{
+      if(window.scrollY >= 80){
+	  setScrollNav(true);
+      }else{
+	  setScrollNav(false);
+      }
+  }
+
+  useEffect(() =>{
+      window.addEventListener('scroll', changeNav);
+  }, [])
+  
+  const toggleHome =() =>{
+      scroll.scrollToTop();
+  }
+
     return(
       <>
-	<Nav>
+      <Nav scrollNav={scrollNav}>
 	  <NavbarContainer>
-	    <NavLogo to='/'>Bruno_Valles</NavLogo>
+	    <NavLogo to='/' onClick={toggleHome}>Bruno_Valles</NavLogo>
 	      <MobileIcon onClick={toggle}>
 		<FaBars />
 	      </MobileIcon>
 	      <NavMenu>
 		<NavItem>
-		  <NavLinks to="aboutMe">.aboutMe()</NavLinks>
+		  <NavLinks to="aboutMe" smooth ={true} duration={500} spy={true} exact='true' >.aboutMe()</NavLinks>
 		</NavItem>
 		<NavItem>
-		  <NavLinks to="skills">.skills()</NavLinks>
+		  <NavLinks to="skills" smooth ={true} duration={500} spy={true} exact='true'>.skills()</NavLinks>
 		</NavItem>
 		<NavItem>
-		  <NavLinks to="experience">.experience()</NavLinks>
+		  <NavLinks to="experience" smooth ={true} duration={500} spy={true} exact='true'>.experience()</NavLinks>
 		</NavItem>
 		<NavItem>
-		  <NavLinks to="contact">.contact()</NavLinks>
+		  <NavLinks to="contact" smooth ={true} duration={500} spy={true} exact='true'>.contact()</NavLinks>
 		</NavItem>
 		<NavItem>
 		  <NavSocLinks href="https://github.com/BrunoValles"><FaGithub/></NavSocLinks>
@@ -54,4 +73,4 @@ const index = ({ toggle }) =>{
     );
 };
 
-export default index;
+export default Index;

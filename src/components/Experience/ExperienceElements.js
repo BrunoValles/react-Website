@@ -1,4 +1,4 @@
-
+import { Link as LinkR } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const ExpContainer = styled.div`
@@ -92,6 +92,7 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  z-index: 3;
 `;
 
 export const GitLink = styled.a`
@@ -105,7 +106,7 @@ export const GitLink = styled.a`
   }
 `;
 
-export const CvButton = styled.button`
+export const CvButton = styled(LinkR)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;

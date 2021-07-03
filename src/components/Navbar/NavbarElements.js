@@ -37,7 +37,7 @@ export const GlitchAnimation = keyframes`
   }
 `;
 export const Nav = styled.nav`
-  background-color: #000;
+  background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
   transparency: 90%;
   height: 50px;
   margin-top: -80;
@@ -81,7 +81,7 @@ export const NavLogo = styled(LinkR)`
 
   &:hover{
     animation: ${GlitchAnimation}; 
-    animation-duration: 250ms;
+    animation-duration: 25ms;
     animation-fill-mode: forwards;
   }
 `;
@@ -119,7 +119,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  height: 50px;
 `;
 
 export const NavLinks = styled(LinkS)`
@@ -136,7 +136,7 @@ export const NavLinks = styled(LinkS)`
  }
  &.hover{
   color: #1bf71;
-  transition:  0. ease-in-out;
+  transition:  0.1 ease-in-out;
  }
 
 `;

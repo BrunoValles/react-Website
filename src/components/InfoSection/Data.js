@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: '.aboutMe()',
   headLine: "This is me",
-  description: "I'm a Computer Science Engineer from the University of Guadalajara. I have two years of experience working with exciting technologies and projects. I am passionate about workflow optimizations and lightweight solutions. This passion has lead me into several learning paths.",
+  description: "I'm a Computer Science Engineer from the University of Guadalajara. I have two years of experience working with exciting technologies and projects.",
   imgStart: false,
   img: require('../../images/svg-1.svg').default,
   alt: 'PC',
@@ -20,27 +20,27 @@ export const homeObjTwo = {
   lightTextDesc: false,
   topLine: '.skills()',
   headLine: "Always excited to learn!",
-  description: "The main technologies I've been focused in are: React Node Python Java",
+  description: "I love using tools like Linux and Vim to code. My favorite language is Java but right now I'm learnign React, Node js and Python.",
   imgStart: true,
   img: require('../../images/svg-2.svg').default,
   alt: 'PC',
   dark: false,
   darkText: true 
 };
-export const homeObjThree = {
-  id: 'experience',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: '.experience()',
-  headLine: '',
-  description: "You can download my CV here!</br></br>If you wanna know what I'm working on you can check out my Github page",
-  imgStart: false,
-  img: require('../../images/svg-3.svg').default,
-  alt: 'PC',
-  dark: true,
-  darkText: false
-};
+//export const homeObjThree = {
+  //id: 'experience',
+  //lightBg: false,
+  //lightText: true,
+  //lightTextDesc: true,
+  //topLine: '.experience()',
+  //headLine: '',
+  //description: "You can download my CV here!</br></br>If you wanna know what I'm working on you can check out my Github page",
+  //imgStart: false,
+  //img: require('../../images/svg-3.svg').default,
+  //alt: 'PC',
+  //dark: true,
+  //darkText: false
+//};
 
 export const homeObjFour = {
   id: 'contact',
@@ -49,7 +49,7 @@ export const homeObjFour = {
   lightTextDesc: false,
   topLine: '.contact()',
   headLine: "Let's get in touch!",
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  description: 'For any inquieries feel free to send me an e-mail to bruno.valles.work@gmail.com.',
   imgStart: true,
   img: require('../../images/svg-4.svg').default,
   alt: 'PC',
