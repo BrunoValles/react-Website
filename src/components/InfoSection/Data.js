@@ -49,7 +49,7 @@ export const homeObjFour = {
   lightTextDesc: false,
   topLine: '.contact()',
   headLine: "Let's get in touch!",
-  description: 'For any inquieries feel free to send me an e-mail to bruno.valles.work@gmail.com.',
+  description: 'For any inquiries feel free to send me an e-mail to: bruno.valles.work@gmail.com.',
   imgStart: true,
   img: require('../../images/svg-4.svg').default,
   alt: 'PC',
