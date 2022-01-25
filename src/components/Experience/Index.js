@@ -14,7 +14,7 @@ import {
   CvButton,
   GitLink
 } from './ExperienceElements'
-import {FaGithub} from 'react-icons/fa';
+import {FaFile} from 'react-icons/fa';
 
 
 const ExpSection = () =>{
@@ -32,11 +32,11 @@ const ExpSection = () =>{
 		</Subtitle>
 		<CvButton>Download</CvButton>*/}
 		<Subtitle>
-		You can see what I'm currently working on in my github!  
+		Feel free to download my resume over here  
 		</Subtitle>
 		<CvButton to={{ pathname:'https://github.com/brunovalles'}} target="_blank">
-		  <GitLink><FaGithub/></GitLink> My Github
-		</CvButton>
+		  <GitLink><FaFile/></GitLink> My Resume 
+		</CvButton>  
 	      </TextWrapper>
 	    </ExpCol1>
 	    <ExpCol2>

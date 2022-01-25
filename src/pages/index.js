@@ -4,7 +4,13 @@ import Navbar from  '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
 import ExpSection from  '../components/Experience/index.js'
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from '../components/InfoSection/Data'
+import {
+	  homeObjOne,
+	  homeObjTwo,
+	  //homeObjThree,
+	  homeObjFour 
+	} from '../components/InfoSection/Data'
+
 
 const Home = () => {
   const[isOpen, setIsOpen] = useState(false)
