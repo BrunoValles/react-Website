@@ -26,7 +26,7 @@ const ExpSection = () =>{
 	    <ExpCol1>
 	      <TextWrapper>
 		<TopLine>.experience()</TopLine>
-		<Heading >Take a look at my work!</Heading>
+		<Heading >Take a look at where I've been!</Heading>
 	    {/*<Subtitle >
 		  You can Download my CV Here!
 		</Subtitle>
