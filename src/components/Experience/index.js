@@ -26,16 +26,12 @@ const ExpSection = () =>{
 	    <ExpCol1>
 	      <TextWrapper>
 		<TopLine>.experience()</TopLine>
-		<Heading >Take a look at where I've been!</Heading>
-	    {/*<Subtitle >
-		  You can Download my CV Here!
+		<Heading >Find out more about me!</Heading>
+	 	<Subtitle>
+		Download my resume over here  
 		</Subtitle>
-		<CvButton>Download</CvButton>*/}
-		<Subtitle>
-		Feel free to download my resume over here  
-		</Subtitle>
-		<CvButton to={{ pathname:'https://github.com/brunovalles'}} target="_blank">
-		  <GitLink><FaFile/></GitLink> My Resume 
+		<CvButton href={require("../../files/Bruno_Valles.pdf")} download="Bruno_Valles_Resume.pdf">
+			<GitLink ><FaFile/> My Resume</GitLink>
 		</CvButton>  
 	      </TextWrapper>
 	    </ExpCol1>
