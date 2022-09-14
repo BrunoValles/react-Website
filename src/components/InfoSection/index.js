@@ -13,7 +13,7 @@ import {
   Img
 } from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, img, alt}) =>{
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, description2, img, alt}) =>{
     return(
       <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -24,6 +24,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
 		<TopLine>{topLine}</TopLine>
 		<Heading lightText={lightText}>{headLine}</Heading>
 		<Subtitle darkText={darkText}>{description}</Subtitle>
+    <Subtitle darkText={darkText}>{description2}</Subtitle>
 	      </TextWrapper>
 	    </Column1>
 	    <Column2>
