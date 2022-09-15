@@ -30,8 +30,8 @@ const ExpSection = () =>{
 	 	<Subtitle>
 		Download my resume over here  
 		</Subtitle>
-		<CvButton href={require("../../files/Bruno_Valles.pdf")} download="Bruno_Valles_Resume.pdf">
-			<GitLink ><FaFile/> My Resume</GitLink>
+          <CvButton to={{pathname:'https://drive.google.com/file/d/1diHCcIp0-9vJftwflIfUxQNR93ig4RSw/view?usp=sharing'}} target="_blank">
+			<GitLink><FaFile/> My Resume</GitLink>
 		</CvButton>  
 	      </TextWrapper>
 	    </ExpCol1>
@@ -40,7 +40,7 @@ const ExpSection = () =>{
 		<Img src={require('../../images/svg-3.svg').default} alt="matrix"/>
 	      </ImgWrap>
 	    </ExpCol2>
-	  </ExpRow>
+	  </ExpRow> 
 	</ExpWrapper>
       </ExpContainer>
       </>

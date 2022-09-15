@@ -106,7 +106,7 @@ export const GitLink = styled.a`
   }
 `;
 
-export const CvButton = styled.button`
+export const CvButton = styled(LinkR)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;
