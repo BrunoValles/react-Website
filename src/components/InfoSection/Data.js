@@ -21,11 +21,11 @@ export const homeObjTwo = {
   lightTextDesc: false,
   topLine: '.skills()',
   headLine: "What can I do?",
-  description: "Proficient in Java, Javascript and C, Integration of REST APIs and SQL databases",
-  description2: "Linux services and administration, teamwork and fast independent learner",
+  description: "I create fast and easy to use applications, using fullstack web development technologies",
+  description2: "I also have Linux services and administration experience. Proficient in Java, C and integration of REST APIs and SQL databases. I am very focused on teamwork and a fast independent learner",
   imgStart: true,
   img: require('../../images/svg-2.svg').default,
-  alt: 'PC',
+  alt: 'desk',
   dark: false,
   darkText: true 
 };
@@ -55,7 +55,7 @@ export const homeObjFour = {
   description2: "Linkedin: www.linkedin.com/in/bruno-vp",
   imgStart: true,
   img: require('../../images/svg-4.svg').default,
-  alt: 'PC',
+  alt: 'card',
   dark: false,
   darkText: true 
 };

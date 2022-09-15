@@ -37,7 +37,7 @@ const ExpSection = () =>{
 	    </ExpCol1>
 	    <ExpCol2>
 	      <ImgWrap>
-		<Img src={require('../../images/svg-3.svg').default} alt="PC"/>
+		<Img src={require('../../images/svg-3.svg').default} alt="matrix"/>
 	      </ImgWrap>
 	    </ExpCol2>
 	  </ExpRow>
