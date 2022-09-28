@@ -4,6 +4,7 @@ import Navbar from  '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
 import ExpSection from  '../components/Experience/index.js'
+import EasterEgg from '../components/EasterEgg/EasterEgg.js'
 import {
 	  homeObjOne,
 	  homeObjTwo,
@@ -20,6 +21,7 @@ const Home = () => {
   }
     return (
       <>
+
 	<Sidebar isOpen={isOpen} toggle={toggle}/>
 	<Navbar toggle={toggle}/>
 	<HeroSection />
@@ -28,6 +30,7 @@ const Home = () => {
       {/*<InfoSection {...homeObjThree}/>*/}
 	<ExpSection />
 	<InfoSection {...homeObjFour}/>
+	<script src="../components/EasterEgg/EasterEgg.js"></script>
       </>
     );
 }
