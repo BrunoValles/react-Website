@@ -1,0 +1,28 @@
+body {
+		background-color: #111;
+}
+ul {
+		
+}
+li {
+		color: powderblue;
+}
+h1 {
+		color: beige;
+		position: center top;
+}
+h2 {
+		color: #01bf71;
+}
+h3 {
+		color: powderblue;
+}
+p {
+		color: beige;
+}
+p ul li {
+		color: beige;
+}
+a {
+		color: #01bf71;
+}

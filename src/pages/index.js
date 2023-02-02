@@ -4,6 +4,7 @@ import Navbar from  '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
 import ExpSection from  '../components/Experience/index.js'
+// eslint-disable-next-line
 import EasterEgg from '../components/EasterEgg/EasterEgg.js'
 import {
 	  homeObjOne,

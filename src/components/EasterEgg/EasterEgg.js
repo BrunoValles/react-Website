@@ -36,10 +36,10 @@ document.addEventListener('keydown', function(e){
     var key = allowedKeys[e.keyCode]
     var requiredKey = code[codePosition]
 
-  if (key == requiredKey){
+  if (key === requiredKey){
       codePosition ++;
 
-    if(codePosition == code.length){
+    if(codePosition === code.length){
         activateEasterEgg();
         codePosition = 0;
     }

@@ -4,7 +4,8 @@ import {
   FaBars, 
   FaGithub,
   FaLinkedinIn,
-  FaTwitter 
+  FaTwitter,
+	FaCode
 } from 'react-icons/fa';
 import {
   Nav,
@@ -66,6 +67,7 @@ const Index = ({ toggle }) =>{
 		<NavItem>
 		  <NavSocLinks href= "https://twitter.com/Bruno_Valles242"><FaTwitter/></NavSocLinks>
 		</NavItem>
+					<NavItem><NavSocLinks href= "https://leetcode.com/BrunoValles/"><FaCode/></NavSocLinks></NavItem>
 	      </NavMenu>
 	  </NavbarContainer>
 	</Nav>

@@ -6,6 +6,13 @@ import {
   SidebarWrapper, 
   SidebarLink, 
 } from './SidebarElements';
+import {
+  FaBars, 
+  FaGithub,
+  FaLinkedinIn,
+  FaTwitter,
+	FaCode
+} from 'react-icons/fa';
 
 const Sidebar = ({ isOpen, toggle }) => {
     return(

@@ -10,10 +10,11 @@ import {
   Heading,
   Subtitle,
   ImgWrap,
-  Img
+  Img,
+  List
 } from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, description2, img, alt}) =>{
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, description2, skillList, img, alt} ) =>{
     return(
       <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -25,6 +26,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
 		<Heading lightText={lightText}>{headLine}</Heading>
 		<Subtitle darkText={darkText}>{description}</Subtitle>
     <Subtitle darkText={darkText}>{description2}</Subtitle>
+    <List darkText={darkText}>{skillList}</List>
 	      </TextWrapper>
 	    </Column1>
 	    <Column2>
