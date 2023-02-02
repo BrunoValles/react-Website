@@ -22,7 +22,7 @@ export const homeObjTwo = {
   topLine: '.skills()',
   headLine: "My Skills",
   description: "Throughout my career, I have had the opportunity to work on a diverse range of projects, from developing desktop applications to building robust, full-stack web applications.",
-  description2: "I am a skilled software developer with Proficient in Java, JavaScript (ReactJS, AngularJS), MERN stack, REST API development, Agile, Git, code writing and problem-solving, team collaboration, and communication.",
+  description2: "I am a skilled software developer proficient in Java, JavaScript (ReactJS, AngularJS), MERN stack, REST API development, Agile, Git, code writing and problem-solving, team collaboration, and communication.",
   imgStart: true,
   img: require('../../images/svg-2.svg').default,
   alt: 'desk',
