@@ -27,8 +27,7 @@ var allowedKeys ={
   90: 'z',	 
 }
 
-
-var code = ['e','a','s','t','e','r','e','g','g']
+var code = ['e', 'y', 'e', 'i', 'n', 't', 'h', 'e', 's', 'k', 'y'];
 var codePosition = 0;
 
 
@@ -51,6 +50,6 @@ document.addEventListener('keydown', function(e){
 
 function activateEasterEgg(){
     document.body.style.backgroundImage ="url('images/')";
-    alert("Easter Egg Activated!")
+    alert("Hi Baby! I made this playlist for you https://open.spotify.com/playlist/7sh4PJDhpGI2fUbfqCoJWq?si=04011894f5b64dfe")
 }
 //
